@@ -24,18 +24,18 @@ The search results belong to the first page of the search results, using google.
 
         source POM_BDD_env/bin/activate
 
-3. To add the required packages to the requirements.txt file, run the following command
+3. **GO TO THE STEP FOUR IF YOU DON'T GOING TO MODIFY THE DEPENDENCIES**, To add the required packages to the requirements.txt file, run the following command
 
         pip freeze > requirements.txt
 
-3. Install the dependencies
+4. Install the dependencies
 
        py -m pip install -r requirements.txt
 
-4. Exit the virtual environment
+5. Exit the virtual environment
 
         deactivate
 
-5. To run the tests, run the following command
+6. To run the tests, run the following command
 
         behave features --tags=completed
